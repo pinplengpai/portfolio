@@ -6,8 +6,9 @@ import { FormControl, InputLabel, Input, Button } from '@material-ui/core';
         const {item, handleChange, handleSubmit, editItem} = this.props
 
         return(
-            <div>
-                <h1 className="text-center">What do you want to acheive today?</h1>
+            <div className="mb-3">
+                <h1 style={{fontFamily:"Mali"}}>Your To-Do List</h1>
+
                 <FormControl>
                     <form onSubmit={handleSubmit} className="self-center">
                         <div className="align-center">

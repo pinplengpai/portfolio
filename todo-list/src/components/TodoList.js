@@ -6,10 +6,8 @@ export default class TodoList extends Component {
     render(){
         const {items, clearList, handleDelete, handleEdit} = this.props;
         return(
-            <div className="self-center">
-                <ul>
-                <h3 style={{fontFamily:"Mali"}}>Your Todos Today</h3>
-
+            <div>
+                <ul className="p-0">
                 {items&&items.map( item => {
                 return(
                     <TodoItem
@@ -20,7 +18,7 @@ export default class TodoList extends Component {
                     />
                     )
                 })}
-                <Button onClick={clearList}>Clear List</Button>
+                <Button onClick={clearList} color="secondary" style={{width:"40%"}} >Clear List</Button>
                 </ul>
             </div>
         )
