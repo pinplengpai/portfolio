@@ -8,6 +8,7 @@ export default function Checkboxes() {
     setChecked(event.target.checked);
   };
 
+  
   return (
     <div>
       <Checkbox
