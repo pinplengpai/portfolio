@@ -17,7 +17,7 @@ import { FormControl, InputLabel, Input, Button } from '@material-ui/core';
                                 type="text"
                                 id="my-input" 
                                 aria-describedby="my-helper-text"
-                                value={item} 
+                                value ={item} 
                                 onChange={handleChange}
                             />
                             <Button type="submit" style={{fontFamily:"Mali", fontStyle:"bold"}}>
