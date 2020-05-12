@@ -8,14 +8,14 @@ export default function Checkboxes() {
     setChecked(event.target.checked);
   };
 
-  
+
   return (
     <div>
       <Checkbox
         checked={checked}
         onChange={handleChange}
         inputProps={{ 'aria-label': 'primary checkbox' }}
-        color="primary"
+        color="secondary"
       />
     </div>
   )
