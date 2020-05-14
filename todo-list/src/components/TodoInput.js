@@ -21,7 +21,7 @@ import { FormControl, InputLabel, Input, Button } from '@material-ui/core';
                                 onChange={handleChange}
                             />
                             <Button type="submit" style={{fontFamily:"Mali", fontStyle:"bold"}}>
-                                { editItem ?  'edit':'add item' }  
+                                { editItem ?  'edit':'add item'}  
                             </Button>
                         </div>
                     </form>
